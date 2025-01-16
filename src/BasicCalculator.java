@@ -24,5 +24,9 @@ public class BasicCalculator {
             }
         }
 
+        //now checking the operator is valid or invalid if its invalid then throwing the error to user
+        if (operator == ' ') {
+            System.out.println("Invalid Operator: valid operators are (+)(-)(*)(/)");
+        }
     }
 }
