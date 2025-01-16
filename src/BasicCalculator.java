@@ -73,5 +73,26 @@ public class BasicCalculator {
        
         }
     }
+    static class Operators {
+
+        //creating addition method
+         double addition(double a, double b) {
+            return (a + b);
+        }
+
+        //creating addition method
+         double subtraction(double a, double b) {
+            return (a + b);
+        }
+
+        //creating multiplication method
+         double multiplication(double a, double b) {
+            return (a + b);
+        }
+
+        //creating division method
+         double division(double a, double b) {
+            return (a / b);
+        }
     }
-}
+    }
