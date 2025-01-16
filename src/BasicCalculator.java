@@ -5,7 +5,7 @@ public class BasicCalculator {
 
         //creating Scanner object for taking user input
         Scanner input = new Scanner(System.in);
-//        Operators operators = new Operators();
+        Operators operators = new Operators();
 
         
         //Showing message to user to give the input
