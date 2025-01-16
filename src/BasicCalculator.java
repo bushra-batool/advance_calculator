@@ -7,5 +7,10 @@ public class BasicCalculator {
         Scanner input = new Scanner(System.in);
 //        Operators operators = new Operators();
 
+        
+        //Showing message to user to give the input
+        System.out.print("Enter an Expression: ");
+        String expression = input.nextLine();
+
     }
 }
